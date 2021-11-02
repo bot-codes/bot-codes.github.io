@@ -9,6 +9,9 @@ a {
 }
 
 @keyframes Rgb {
+	from {
+		color: neon;
+	}
 	10% {
 		color: red;
 	}
