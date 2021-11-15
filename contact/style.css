@@ -9,12 +9,14 @@ body {
   min-width: 0;
   background: rgb(34, 61, 195);
   background: linear-gradient(0deg, rgba(34, 61, 195, 1) 24%, rgba(124, 54, 154, 1) 46%, rgba(253, 45, 94, 1) 100%);
+  background-size: cover;
+  background-position: center;
 }
 
 .box {
   text-align: center;
   box-shadow: 1px 5px 10px black;
-  width: 350px;
+  width: 320px;
   height: 500px;
   border-radius: 15px;
   margin-top: 5rem;
