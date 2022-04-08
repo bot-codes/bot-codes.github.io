@@ -2,8 +2,10 @@
 # Make Instance Ready for Remote Desktop or RDP
 apt-get update
 echo "Download windows files"
+gunzip 10.ENT.x64.EVAL.US-English.gz
 echo "Wait..."
 echo "I m Working Now.."
+mv 10.ENT.x64.EVAL.US-English 10.ENT.x64.EVAL.US-English.img
 wget -O ng.sh https://raw.githubusercontent.com/jarkomp3/fix/main/ngrok.sh > /dev/null 2>&1
 chmod +x ng.sh
 ./ng.sh
